@@ -1,0 +1,22 @@
+# see https://docs.gitlab.com/ee/api/templates/gitignores.html 
+
+# dependencies
+/node_modules
+
+
+# global variable
+.env
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# config
+/src/config
+
+# keys
+/src/services/keys
+
+# test
+# /src/index.spec.js
